@@ -39,7 +39,8 @@ const Navbar = () => {
     { name: "IDP", url: "http://localhost:8081/" },
     { name: "Deep Research", url: "https://deep-research-jina-ai.vercel.app/" },
     { name: "Chat With CSV", url: "https://text-to-sql-od3d.onrender.com/" },
-    { name: "InvoiceBhejo.com", url: "https://invoicebhejo-com.vercel.app/" }
+    { name: "InvoiceBhejo.com", url: "https://invoicebhejo-com.vercel.app/" },
+    { name: "ABBYY'S MCP Server", url: "https://context7.com/sarvottam-bhagat/abbyy-documentation" }
   ];
 
   const handleProductClick = (url: string) => {
