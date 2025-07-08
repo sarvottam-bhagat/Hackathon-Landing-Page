@@ -18,9 +18,17 @@ const SpecsSection = () => {
         
         {/* Main content with text mask image - responsive text sizing */}
         <div className="max-w-5xl pl-4 sm:pl-8">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display leading-tight mb-8 sm:mb-12">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-display leading-tight mb-8 sm:mb-12">
             <span className="block bg-clip-text text-transparent bg-[url('/text-mask-image.jpg')] bg-cover bg-center">
-              RAG AI integrates seamlessly with your existing knowledge infrastructure, not replacing it. By enhancing document retrieval, improving search accuracy, and learning from every query, RAG AI helps your team access the right information at the right time: discover, analyze, and innovate.
+              SILO AI provides various products to solve common problems faced by businesses.
+              <br /><br />
+              First, we have the Intelligent Document Processor which processes any document with the help of ABBYY's document API and is powered by RAG technology.
+              <br /><br />
+              Second, we have DEEP Research which conducts research on Google, blogs, X (Twitter), YouTube, LinkedIn, Reddit, Wikipedia, and Quora, scraping all results to provide you with detailed articles on your research topic.
+              <br /><br />
+              Third, we have Chat with CSV. Companies often struggle with large CSV data, but using our app you can query your database in natural language. It's like text-to-SQL.
+              <br /><br />
+              Fourth, we have Invoicebhejo.com, which allows you to send invoices in PDF format to anyone. It's powered by n8n, which sends the invoice to the customer's email and saves the PDF in your drive as well as saving the details in your Google Sheet.
             </span>
           </h2>
         </div>

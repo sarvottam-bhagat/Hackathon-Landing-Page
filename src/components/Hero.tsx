@@ -88,7 +88,7 @@ const Hero = () => {
   
   const handleUploadClick = () => {
     // Open the external app directly in a new tab
-    window.open('https://next-js-assignment-fct5.vercel.app/', '_blank');
+    window.open('http://localhost:8081/', '_blank');
   };
   
   return (
@@ -118,14 +118,14 @@ const Hero = () => {
               className="section-title text-3xl sm:text-4xl lg:text-5xl xl:text-6xl leading-tight opacity-0 animate-fade-in" 
               style={{ animationDelay: "0.3s" }}
             >
-              RAG AI: Where Knowledge<br className="hidden sm:inline" />Meets Intelligence
+              SILO AI: Where Knowledge<br className="hidden sm:inline" />Meets Intelligence
             </h1>
             
             <p 
               style={{ animationDelay: "0.5s" }} 
               className="section-subtitle mt-3 sm:mt-6 mb-4 sm:mb-8 leading-relaxed opacity-0 animate-fade-in text-gray-950 font-normal text-base sm:text-lg text-left"
             >
-              The intelligent retrieval system that learns and evolves with your knowledge base.
+              A team of AI agents which solves common businesses problems like document processing, deep research, working with csv, dealing with invoices.
             </p>
             
             <div 

@@ -10,27 +10,27 @@ interface TestimonialProps {
 }
 
 const testimonials: TestimonialProps[] = [{
-  content: "Our RAG AI system transformed our research workflow, enabling our team to find relevant information 50% faster. Knowledge discovery has never been this intuitive.",
-  author: "Sarah Chen",
-  role: "VP of Research, DataVision Labs",
+  content: "SILO AI's Intelligent Document Processor revolutionized our document workflow. We process contracts and invoices 70% faster with ABBYY integration and RAG technology handling complex documents effortlessly.",
+  author: "Emma Thompson",
+  role: "Operations Manager, LegalTech Solutions",
   gradient: "from-blue-700 via-indigo-800 to-purple-900",
   backgroundImage: "/background-section1.png"
 }, {
-  content: "Implementing RAG AI in our knowledge management reduced information retrieval time by 60% while improving answer accuracy. The learning capabilities are exceptional.",
-  author: "Michael Rodriguez",
-  role: "Director of Knowledge Systems, GlobalTech",
+  content: "DEEP Research transformed how we gather market intelligence. Instead of spending days researching across platforms, we get comprehensive reports from Google, LinkedIn, Reddit, and more in minutes.",
+  author: "David Kumar",
+  role: "Market Research Director, Strategy Consulting",
   gradient: "from-indigo-900 via-purple-800 to-orange-500",
   backgroundImage: "/background-section2.png"
 }, {
-  content: "This AI system adapted to our specialized domain faster than any solution we've tried. It's like having a research assistant with perfect recall and contextual understanding.",
-  author: "Dr. Amara Patel",
-  role: "Lead Scientist, BioAdvance Research",
+  content: "Chat with CSV solved our biggest data challenge. Our team can now query massive datasets in plain English instead of writing complex SQL. It's like having a data analyst available 24/7.",
+  author: "Dr. Lisa Rodriguez",
+  role: "Head of Analytics, FinanceFlow Corp",
   gradient: "from-purple-800 via-pink-700 to-red-500",
   backgroundImage: "/background-section3.png"
 }, {
-  content: "As a mid-size company, we never thought advanced AI would be accessible to us. This RAG system changed everything with its ease of integration and powerful capabilities.",
-  author: "Jason Lee",
-  role: "CEO, Innovative Solutions Inc.",
+  content: "Invoicebhejo.com streamlined our billing process completely. The n8n automation sends invoices to clients, saves PDFs to our drive, and updates Google Sheets automatically. Pure efficiency.",
+  author: "Rajesh Sharma",
+  role: "Founder, Digital Marketing Agency",
   gradient: "from-orange-600 via-red-500 to-purple-600",
   backgroundImage: "/background-section1.png"
 }];

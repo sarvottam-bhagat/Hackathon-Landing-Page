@@ -23,7 +23,7 @@ const MadeByHumans = () => {
             
             <div className="flex-1 flex items-center justify-center">
               <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-playfair text-white italic text-center font-thin">
-                Powered By RAG & AI
+                AI Solutions for Business
               </h2>
             </div>
             

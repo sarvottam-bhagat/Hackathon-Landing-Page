@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isProductDropdownOpen, setIsProductDropdownOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,6 +33,18 @@ const Navbar = () => {
       setIsMenuOpen(false);
       document.body.style.overflow = '';
     }
+  };
+
+  const productItems = [
+    { name: "IDP", url: "http://localhost:8081/" },
+    { name: "Deep Research", url: "http://localhost:8082/" },
+    { name: "Chat With CSV", url: "http://localhost:8083/" },
+    { name: "InvoiceBhejo.com", url: "http://localhost:8084/" }
+  ];
+
+  const handleProductClick = (url: string) => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+    setIsProductDropdownOpen(false);
   };
 
   return (
@@ -72,6 +85,33 @@ const Navbar = () => {
           >
             Home
           </a>
+          <div className="relative">
+            <button 
+              className="nav-link flex items-center space-x-1"
+              onClick={() => setIsProductDropdownOpen(!isProductDropdownOpen)}
+            >
+              <span>Product</span>
+              <ChevronDown size={16} className={cn(
+                "transition-transform duration-200",
+                isProductDropdownOpen && "rotate-180"
+              )} />
+            </button>
+            {isProductDropdownOpen && (
+              <div 
+                className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
+              >
+                {productItems.map((item, index) => (
+                  <button
+                    key={index}
+                    className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 transition-colors duration-200"
+                    onClick={() => handleProductClick(item.url)}
+                  >
+                    {item.name}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
           <a href="#features" className="nav-link">About</a>
           <a href="#details" className="nav-link">Contact</a>
           <a 
@@ -112,6 +152,35 @@ const Navbar = () => {
           >
             Home
           </a>
+          <div className="w-full">
+            <button 
+              className="text-xl font-medium py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100 flex items-center justify-center space-x-2"
+              onClick={() => setIsProductDropdownOpen(!isProductDropdownOpen)}
+            >
+              <span>Product</span>
+              <ChevronDown size={20} className={cn(
+                "transition-transform duration-200",
+                isProductDropdownOpen && "rotate-180"
+              )} />
+            </button>
+            {isProductDropdownOpen && (
+              <div className="mt-2 space-y-2 bg-gray-50 rounded-lg p-2">
+                {productItems.map((item, index) => (
+                  <button
+                    key={index}
+                    className="w-full text-left px-4 py-2 text-lg text-gray-700 hover:bg-white hover:text-gray-900 rounded-lg transition-colors duration-200"
+                    onClick={() => {
+                      handleProductClick(item.url);
+                      setIsMenuOpen(false);
+                      document.body.style.overflow = '';
+                    }}
+                  >
+                    {item.name}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
           <a 
             href="#features" 
             className="text-xl font-medium py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100" 

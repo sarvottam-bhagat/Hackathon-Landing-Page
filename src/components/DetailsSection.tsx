@@ -72,7 +72,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Response Time:</span> &lt;200ms
+                      <span className="font-semibold text-base">Intelligent Document Processor:</span> Process any document with ABBYY's API powered by RAG technology
                     </div>
                   </div>
                 </div>
@@ -85,7 +85,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Accuracy:</span> 95%+
+                      <span className="font-semibold text-base">DEEP Research:</span> Comprehensive research across Google, social media, and knowledge platforms
                     </div>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Documents:</span> 1M+
+                      <span className="font-semibold text-base">Chat with CSV:</span> Query large CSV databases using natural language (text-to-SQL)
                     </div>
                   </div>
                 </div>
@@ -111,20 +111,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Languages:</span> 100+
-                    </div>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-dark-900 flex items-center justify-center mt-1 flex-shrink-0">
-                    <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 5L5 9L13 1" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </div>
-                  <div className="flex-1">
-                    <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Scalability:</span> Enterprise
+                      <span className="font-semibold text-base">Invoicebhejo.com:</span> Automated PDF invoice delivery with drive storage and sheet integration
                     </div>
                   </div>
                 </div>
@@ -144,7 +131,7 @@ const DetailsSection = () => {
                 Contact US
               </div>
               <h2 className="text-2xl sm:text-3xl font-display text-white font-bold mt-auto">
-                Experience RAG AI
+                Experience SILO AI
               </h2>
             </div>
             
