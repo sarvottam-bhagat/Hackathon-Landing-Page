@@ -37,9 +37,9 @@ const Navbar = () => {
 
   const productItems = [
     { name: "IDP", url: "http://localhost:8081/" },
-    { name: "Deep Research", url: "http://localhost:8082/" },
-    { name: "Chat With CSV", url: "http://localhost:8083/" },
-    { name: "InvoiceBhejo.com", url: "http://localhost:8084/" }
+    { name: "Deep Research", url: "https://deep-research-jina-ai.vercel.app/" },
+    { name: "Chat With CSV", url: "https://text-to-sql-od3d.onrender.com/" },
+    { name: "InvoiceBhejo.com", url: "https://invoicebhejo-com.vercel.app/" }
   ];
 
   const handleProductClick = (url: string) => {
